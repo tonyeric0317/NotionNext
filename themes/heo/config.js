@@ -37,6 +37,15 @@ const CONFIG = {
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推薦文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
+  
+  // 右侧个人资料卡牌欢迎语，点击可自动切换
+  HEO_INFOCARD_GREETINGS: [
+    '你好！我是',
+    '🔍 股票',
+    '🤝 幣圈',
+    '🏃 閱讀',
+    '🏠 運動',
+    '🤖️ 煮飯',
   ],
 
   // 个人资料底部按钮
