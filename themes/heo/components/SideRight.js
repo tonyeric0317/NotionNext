@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 import { AnalyticsCard } from './AnalyticsCard'
 import Card from './Card'
 import Catalog from './Catalog'
-import { InfoCard } from './InfoCard'
+
 import LatestPostsGroupMini from './LatestPostsGroupMini'
 import TagGroups from './TagGroups'
 import TouchMeCard from './TouchMeCard'
@@ -34,7 +34,7 @@ export default function SideRight(props) {
 
   return (
     <div id='sideRight' className='hidden xl:block w-72 space-y-4 h-full'>
-      <InfoCard {...props} className='w-72 wow fadeInUp' />
+  
 
       <div className='sticky top-20 space-y-4'>
         {/* 文章页显示目录 */}
