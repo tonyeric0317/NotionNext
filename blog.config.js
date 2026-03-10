@@ -50,10 +50,8 @@ const BLOG = {
   ...require('./conf/dev.config'), // 开发、调试时需要关注的配置
 
 // 自定义外部脚本，外部样式
-CUSTOM_EXTERNAL_JS: [
-    'data:text/javascript,var s=document.createElement("style");s.innerHTML=".today-card-wrapper, #today-card, #today-card-body {pointer-events:none !important; cursor:default !important; border: 5px solid red !important;}";document.head.appendChild(s);'
-  ],
-  CUSTOM_EXTERNAL_CSS: [''],
+CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
 
   // 自定义菜单
